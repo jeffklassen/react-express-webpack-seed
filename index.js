@@ -1,2 +1,2 @@
-let es6Var = () =>   'success';
+let es6Var = () =>   'success!';
 console.log(es6Var());
