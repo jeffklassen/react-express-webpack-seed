@@ -16,8 +16,8 @@ rules:
   no-console: 0
   indent:
     - error
-    - 4,
-    - { "SwitchCase": 1 }]
+    - 4
+    - SwitchCase: 1
   linebreak-style:
     - error
     - unix
@@ -27,3 +27,4 @@ rules:
   semi:
     - error
     - always
+
