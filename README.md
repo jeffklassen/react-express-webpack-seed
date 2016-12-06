@@ -9,3 +9,7 @@ Simply clone the project, then `npm install && npm start`
 If you have docker installed on your computer, you can also run this project with docker:
 
 `docker-compose up --build`
+
+## Browser
+
+After starting with either docker or natively, point your browser to http://localhost:3000
