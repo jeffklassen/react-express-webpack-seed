@@ -1,6 +1,6 @@
-# node-es6-seed
+# static-server-seed
 
-This is a _very_ simple seed project used for bootstrapping.
+This is a _very_ simple seed project used for bootstrapping a static webserver.
 
 Simply clone the project, then `npm install && npm start`
 
