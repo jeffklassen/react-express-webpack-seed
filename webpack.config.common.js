@@ -31,17 +31,7 @@ const config = {
     plugins: [
         new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js', Infinity),
         new webpack.optimize.DedupePlugin(),
-        new webpack.optimize.OccurenceOrderPlugin(),
-        new webpack.optimize.UglifyJsPlugin({
-            compress: { warnings: false },
-            mangle: false,
-            sourcemap: true,
-            beautify: true,
-            dead_code: true,
-            output: {
-                comments: false
-            },
-        })
+        new webpack.optimize.OccurenceOrderPlugin()
     ]
 };
 module.exports = function (options) { return merge(config, options); };

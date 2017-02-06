@@ -9,6 +9,16 @@ const config = {
                 NODE_ENV: JSON.stringify('dev')
             }
         }),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: { warnings: false },
+            mangle: false,
+            sourcemap: true,
+            dead_code: true,
+            minimize: false,
+            output: {
+                comments: false
+            },
+        })
     ]
 };
 
