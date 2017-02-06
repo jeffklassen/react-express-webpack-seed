@@ -1,6 +1,7 @@
-# node-next-seed
+# static-server-seed
 
-This is a _very_ simple seed project used for bootstrapping projects using the most recent version of nodejs.
+This is a _very_ simple seed project used for bootstrapping a static webserver.
+
 
 Simply clone the project, then `npm install && npm start`
 
