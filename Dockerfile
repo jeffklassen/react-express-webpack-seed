@@ -5,7 +5,7 @@ FROM node
 
 WORKDIR /app
 
-ADD . /app
+ADD package.json /app
 
 RUN npm install
 
