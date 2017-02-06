@@ -1,6 +1,6 @@
-# node-es6-seed
+# node-next-seed
 
-This is a _very_ simple seed project used for bootstrapping.
+This is a _very_ simple seed project used for bootstrapping projects using the most recent version of nodejs.
 
 Simply clone the project, then `npm install && npm start`
 
