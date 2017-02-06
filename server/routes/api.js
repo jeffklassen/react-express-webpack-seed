@@ -12,4 +12,4 @@ module.exports = app => {
         res.sendFile('/client/index.html', config);
     });
     app.use('/', clientRoutes);
-}
+};
