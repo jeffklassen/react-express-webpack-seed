@@ -22,7 +22,7 @@ const config = {
                 loader: 'babel',
                 query: {
                     cacheDirectory: true,
-                    presets: ['react', 'es2015', 'es2016', 'es2017'],
+                    presets: ['react', 'env'],
                     compact: true
                 }
             }

@@ -1,6 +1,6 @@
-# static-server-seed
+# react express webpack seed
 
-This is a _very_ simple seed project used for bootstrapping a static webserver.
+This is a _very_ simple seed project used for bootstrapping a react webserver.
 
 Simply clone the project, then `npm install && npm run webpack && npm start`
 
